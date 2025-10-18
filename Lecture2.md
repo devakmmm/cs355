@@ -164,7 +164,14 @@ let n1 = 31
 let f1 = {num:3, den:4, inverse:{num:4, den:3}};
 let f2 = {...f1};
 f1.num = 1;
+f1.den = 2;let f1 = {num:3, den:4, inverse:{num:4, den:3}};
+let f2 = {...f1};
+f1.num = 1;
 f1.den = 2;
+f1.inverse.num = 2;
+f1.inverse.den = 1;
+
+console.log(f2);            // What does this print out? (tricky)
 f1.inverse.num = 2;
 f1.inverse.den = 1;
 
