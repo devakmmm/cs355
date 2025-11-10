@@ -14,6 +14,12 @@ Properties of observer pattern
     -fire multiple times, we can press the enter key multiple times
     -there is no expectation that a "event" in this case lets say hitting the eneter key, happens/fires that is a user never hits the enter key that is its default to 0 (not an error state)
     -tight coupling same as async
+    -multiple observrs can each run own codwe when event is detected 
+
+
+
+Pub sub pattern
+    -no tight coupling
 
 
 OBSERVER PATTERN
